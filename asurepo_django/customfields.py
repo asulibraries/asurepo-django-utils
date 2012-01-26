@@ -62,5 +62,5 @@ class ChoiceEnumField(models.IntegerField):
         return self.enum(value)
 
 from south.modelsinspector import add_introspection_rules
-add_introspection_rules([], ["^asurepo\.django\.customfields\.JsonField"])
-add_introspection_rules([], ["^asurepo\.django\.customfields\.ChoiceEnumField"])
+add_introspection_rules([], ["^asurepo_django\.customfields\.JsonField"])
+add_introspection_rules([], ["^asurepo_django\.customfields\.ChoiceEnumField"])
