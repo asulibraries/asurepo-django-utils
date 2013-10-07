@@ -1,1 +1,7 @@
 Django components that are generally useful but not explicitly tied to our main app.
+
+#This package is no longer maintained.
+
+Many of the components have been replaced or invalidated due to Django development or changes in the main repository code base.
+
+Most of these were either 1) too coupled to the repo in the first place or 2) available in other maintained 3rd party plugins.
